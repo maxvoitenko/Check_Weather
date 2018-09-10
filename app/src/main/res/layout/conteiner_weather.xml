@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="city"/>
+    <TextView
+        android:id="@+id/temp_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="temp_main"/>
+<TextView
+        android:id="@+id/temp_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:hint="temp_min"/>
+<TextView
+        android:id="@+id/temp_max"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:hint="temp_max"/>
+
+</LinearLayout>
